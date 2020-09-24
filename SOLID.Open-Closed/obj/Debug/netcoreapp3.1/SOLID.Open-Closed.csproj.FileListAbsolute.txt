@@ -1,0 +1,10 @@
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.Open-Closed\bin\Debug\netcoreapp3.1\SOLID.Open-Closed.exe
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.Open-Closed\bin\Debug\netcoreapp3.1\SOLID.Open-Closed.deps.json
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.Open-Closed\bin\Debug\netcoreapp3.1\SOLID.Open-Closed.runtimeconfig.json
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.Open-Closed\bin\Debug\netcoreapp3.1\SOLID.Open-Closed.runtimeconfig.dev.json
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.Open-Closed\bin\Debug\netcoreapp3.1\SOLID.Open-Closed.dll
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.Open-Closed\bin\Debug\netcoreapp3.1\SOLID.Open-Closed.pdb
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.Open-Closed\obj\Debug\netcoreapp3.1\SOLID.Open-Closed.AssemblyInfoInputs.cache
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.Open-Closed\obj\Debug\netcoreapp3.1\SOLID.Open-Closed.AssemblyInfo.cs
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.Open-Closed\obj\Debug\netcoreapp3.1\SOLID.Open-Closed.dll
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.Open-Closed\obj\Debug\netcoreapp3.1\SOLID.Open-Closed.pdb
