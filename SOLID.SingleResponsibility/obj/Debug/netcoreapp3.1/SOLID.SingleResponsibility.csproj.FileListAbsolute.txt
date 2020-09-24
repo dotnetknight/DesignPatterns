@@ -1,0 +1,10 @@
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.SingleResponsibility\bin\Debug\netcoreapp3.1\SOLID.SingleResponsibility.exe
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.SingleResponsibility\bin\Debug\netcoreapp3.1\SOLID.SingleResponsibility.deps.json
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.SingleResponsibility\bin\Debug\netcoreapp3.1\SOLID.SingleResponsibility.runtimeconfig.json
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.SingleResponsibility\bin\Debug\netcoreapp3.1\SOLID.SingleResponsibility.runtimeconfig.dev.json
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.SingleResponsibility\bin\Debug\netcoreapp3.1\SOLID.SingleResponsibility.dll
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.SingleResponsibility\bin\Debug\netcoreapp3.1\SOLID.SingleResponsibility.pdb
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.SingleResponsibility\obj\Debug\netcoreapp3.1\SOLID.SingleResponsibility.AssemblyInfoInputs.cache
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.SingleResponsibility\obj\Debug\netcoreapp3.1\SOLID.SingleResponsibility.AssemblyInfo.cs
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.SingleResponsibility\obj\Debug\netcoreapp3.1\SOLID.SingleResponsibility.dll
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.SingleResponsibility\obj\Debug\netcoreapp3.1\SOLID.SingleResponsibility.pdb
