@@ -57,6 +57,12 @@ namespace SOLID.Open_Closed
                 Console.WriteLine($" - {product.Name} big and red");
             }
 
+            Console.WriteLine();
+            Console.WriteLine("DEMO3");
+
+            //demo3
+            new DEMO3.Demo3().Execute();
+
             Console.ReadLine();
         }
     }
