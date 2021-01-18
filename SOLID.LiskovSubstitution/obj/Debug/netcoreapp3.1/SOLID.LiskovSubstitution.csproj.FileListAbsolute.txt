@@ -1,0 +1,13 @@
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.LiskovSubstitution\bin\Debug\netcoreapp3.1\SOLID.LiskovSubstitution.exe
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.LiskovSubstitution\bin\Debug\netcoreapp3.1\SOLID.LiskovSubstitution.deps.json
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.LiskovSubstitution\bin\Debug\netcoreapp3.1\SOLID.LiskovSubstitution.runtimeconfig.json
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.LiskovSubstitution\bin\Debug\netcoreapp3.1\SOLID.LiskovSubstitution.runtimeconfig.dev.json
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.LiskovSubstitution\bin\Debug\netcoreapp3.1\SOLID.LiskovSubstitution.dll
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.LiskovSubstitution\bin\Debug\netcoreapp3.1\SOLID.LiskovSubstitution.pdb
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.LiskovSubstitution\obj\Debug\netcoreapp3.1\SOLID.LiskovSubstitution.csprojAssemblyReference.cache
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.LiskovSubstitution\obj\Debug\netcoreapp3.1\SOLID.LiskovSubstitution.AssemblyInfoInputs.cache
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.LiskovSubstitution\obj\Debug\netcoreapp3.1\SOLID.LiskovSubstitution.AssemblyInfo.cs
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.LiskovSubstitution\obj\Debug\netcoreapp3.1\SOLID.LiskovSubstitution.csproj.CoreCompileInputs.cache
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.LiskovSubstitution\obj\Debug\netcoreapp3.1\SOLID.LiskovSubstitution.dll
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.LiskovSubstitution\obj\Debug\netcoreapp3.1\SOLID.LiskovSubstitution.pdb
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.LiskovSubstitution\obj\Debug\netcoreapp3.1\SOLID.LiskovSubstitution.genruntimeconfig.cache
