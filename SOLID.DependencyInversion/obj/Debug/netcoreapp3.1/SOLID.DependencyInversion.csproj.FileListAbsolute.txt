@@ -1,0 +1,13 @@
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.DependencyInversion\bin\Debug\netcoreapp3.1\SOLID.DependencyInversion.exe
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.DependencyInversion\bin\Debug\netcoreapp3.1\SOLID.DependencyInversion.deps.json
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.DependencyInversion\bin\Debug\netcoreapp3.1\SOLID.DependencyInversion.runtimeconfig.json
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.DependencyInversion\bin\Debug\netcoreapp3.1\SOLID.DependencyInversion.runtimeconfig.dev.json
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.DependencyInversion\bin\Debug\netcoreapp3.1\SOLID.DependencyInversion.dll
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.DependencyInversion\bin\Debug\netcoreapp3.1\SOLID.DependencyInversion.pdb
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.DependencyInversion\obj\Debug\netcoreapp3.1\SOLID.DependencyInversion.AssemblyInfoInputs.cache
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.DependencyInversion\obj\Debug\netcoreapp3.1\SOLID.DependencyInversion.AssemblyInfo.cs
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.DependencyInversion\obj\Debug\netcoreapp3.1\SOLID.DependencyInversion.csproj.CoreCompileInputs.cache
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.DependencyInversion\obj\Debug\netcoreapp3.1\SOLID.DependencyInversion.dll
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.DependencyInversion\obj\Debug\netcoreapp3.1\SOLID.DependencyInversion.pdb
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.DependencyInversion\obj\Debug\netcoreapp3.1\SOLID.DependencyInversion.genruntimeconfig.cache
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.DependencyInversion\obj\Debug\netcoreapp3.1\SOLID.DependencyInversion.csprojAssemblyReference.cache

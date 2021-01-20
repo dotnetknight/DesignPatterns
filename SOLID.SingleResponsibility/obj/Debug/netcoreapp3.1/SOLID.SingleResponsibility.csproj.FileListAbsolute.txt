@@ -8,6 +8,5 @@ C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.SingleResponsibility\obj\De
 C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.SingleResponsibility\obj\Debug\netcoreapp3.1\SOLID.SingleResponsibility.AssemblyInfo.cs
 C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.SingleResponsibility\obj\Debug\netcoreapp3.1\SOLID.SingleResponsibility.dll
 C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.SingleResponsibility\obj\Debug\netcoreapp3.1\SOLID.SingleResponsibility.pdb
-C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.SingleResponsibility\obj\Debug\netcoreapp3.1\SOLID.SingleResponsibility.csprojAssemblyReference.cache
 C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.SingleResponsibility\obj\Debug\netcoreapp3.1\SOLID.SingleResponsibility.csproj.CoreCompileInputs.cache
 C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.SingleResponsibility\obj\Debug\netcoreapp3.1\SOLID.SingleResponsibility.genruntimeconfig.cache

@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLID.LiskovSubstitution", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID.InterfaceSegregation", "SOLID.InterfaceSegregation\SOLID.InterfaceSegregation.csproj", "{C3DE4D2E-5155-49A6-A914-8386E1182E1A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID.DependencyInversion", "SOLID.DependencyInversion\SOLID.DependencyInversion.csproj", "{A15F46B6-F7EF-4D99-B885-6B486BF9C445}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C3DE4D2E-5155-49A6-A914-8386E1182E1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3DE4D2E-5155-49A6-A914-8386E1182E1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3DE4D2E-5155-49A6-A914-8386E1182E1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A15F46B6-F7EF-4D99-B885-6B486BF9C445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A15F46B6-F7EF-4D99-B885-6B486BF9C445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A15F46B6-F7EF-4D99-B885-6B486BF9C445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A15F46B6-F7EF-4D99-B885-6B486BF9C445}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,12 @@
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.InterfaceSegregation\bin\Debug\netcoreapp3.1\SOLID.InterfaceSegregation.exe
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.InterfaceSegregation\bin\Debug\netcoreapp3.1\SOLID.InterfaceSegregation.deps.json
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.InterfaceSegregation\bin\Debug\netcoreapp3.1\SOLID.InterfaceSegregation.runtimeconfig.json
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.InterfaceSegregation\bin\Debug\netcoreapp3.1\SOLID.InterfaceSegregation.runtimeconfig.dev.json
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.InterfaceSegregation\bin\Debug\netcoreapp3.1\SOLID.InterfaceSegregation.dll
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.InterfaceSegregation\bin\Debug\netcoreapp3.1\SOLID.InterfaceSegregation.pdb
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.InterfaceSegregation\obj\Debug\netcoreapp3.1\SOLID.InterfaceSegregation.AssemblyInfoInputs.cache
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.InterfaceSegregation\obj\Debug\netcoreapp3.1\SOLID.InterfaceSegregation.AssemblyInfo.cs
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.InterfaceSegregation\obj\Debug\netcoreapp3.1\SOLID.InterfaceSegregation.csproj.CoreCompileInputs.cache
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.InterfaceSegregation\obj\Debug\netcoreapp3.1\SOLID.InterfaceSegregation.dll
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.InterfaceSegregation\obj\Debug\netcoreapp3.1\SOLID.InterfaceSegregation.pdb
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.InterfaceSegregation\obj\Debug\netcoreapp3.1\SOLID.InterfaceSegregation.genruntimeconfig.cache
