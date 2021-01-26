@@ -24,7 +24,7 @@ namespace Builder
             SYMBIAN
         };
 
-        public class MobilePhone
+        public class Phone
         {
             public string Name { get; set; }
 
@@ -46,12 +46,12 @@ namespace Builder
             void BuildScreen();
             void BuildBattery();
             void BuildOS();
-            MobilePhone Phone();
+            Phone Phone();
         }
 
         public class AndroidPhoneBuilder : IPhoneBuilder
         {
-            readonly MobilePhone phone = new MobilePhone();
+            readonly Phone phone = new Phone();
 
             public AndroidPhoneBuilder()
             {
@@ -73,7 +73,7 @@ namespace Builder
                 phone.OS = OperatingSystem.ANDROID;
             }
 
-            public MobilePhone Phone()
+            public Phone Phone()
             {
                 return phone;
             }
@@ -81,7 +81,7 @@ namespace Builder
 
         class WindowsPhoneBuilder : IPhoneBuilder
         {
-            readonly MobilePhone phone = new MobilePhone();
+            readonly Phone phone = new Phone();
 
             public WindowsPhoneBuilder()
             {
@@ -103,7 +103,7 @@ namespace Builder
                 phone.OS = OperatingSystem.WINDOWS_PHONE;
             }
 
-            public MobilePhone Phone()
+            public Phone Phone()
             {
                 return phone;
             }
