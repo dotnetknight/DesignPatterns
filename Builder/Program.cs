@@ -1,102 +1,134 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace Builder
 {
     //Builder design pattern falls under the category of "Creational" design patterns. This pattern is used to build a complex object by using a step by step approach.
     class Program
     {
-        class Director
+        public enum ScreenType
         {
-            public void Construct(IBuilder builder)
+            ScreenType_TOUCH_CAPACITIVE,
+            ScreenType_NON_TOUCH
+        };
+
+        public enum Battery
+        {
+            MAH_1500,
+            MAH_2000
+        };
+
+        public enum OperatingSystem
+        {
+            ANDROID,
+            WINDOWS_PHONE,
+            SYMBIAN
+        };
+
+        public class MobilePhone
+        {
+            public string Name { get; set; }
+
+            public ScreenType Screen { get; set; }
+
+            public Battery Battery { get; set; }
+
+            public OperatingSystem OS { get; set; }
+
+            public override string ToString()
             {
-                builder.BuildPartA();
-                builder.BuildPartB();
+                return string.Format("Name: {0}\nScreen: {1}\nBattery {2}\nOS: {3}",
+                    Name, Screen, Battery, OS);
             }
         }
 
-        public interface IBuilder
+        public interface IPhoneBuilder
         {
-            void BuildPartA();
-            void BuildPartB();
-            Product Product();
+            void BuildScreen();
+            void BuildBattery();
+            void BuildOS();
+            MobilePhone Phone();
         }
 
-        public class ConcreteBuilder1 : IBuilder
+        public class AndroidPhoneBuilder : IPhoneBuilder
         {
-            private readonly Product product = new Product();
+            readonly MobilePhone phone = new MobilePhone();
 
-            public void BuildPartA()
+            public AndroidPhoneBuilder()
             {
-                product.Add("PartA");
+                phone.Name = "Android Phone";
             }
 
-            public void BuildPartB()
+            public void BuildScreen()
             {
-                product.Add("PartB");
+                phone.Screen = ScreenType.ScreenType_TOUCH_CAPACITIVE;
             }
 
-            public Product Product()
+            public void BuildBattery()
             {
-                return product;
-            }
-        }
-
-        public class ConcreteBuilder2 : IBuilder
-        {
-            private readonly Product product = new Product();
-
-            public void BuildPartA()
-            {
-                product.Add("PartX");
+                phone.Battery = Battery.MAH_1500;
             }
 
-            public void BuildPartB()
+            public void BuildOS()
             {
-                product.Add("PartY");
+                phone.OS = OperatingSystem.ANDROID;
             }
 
-            public Product Product()
+            public MobilePhone Phone()
             {
-                return product;
+                return phone;
             }
         }
 
-        public class Product
+        class WindowsPhoneBuilder : IPhoneBuilder
         {
-            private readonly List<string> parts = new List<string>();
+            readonly MobilePhone phone = new MobilePhone();
 
-            public void Add(string part)
+            public WindowsPhoneBuilder()
             {
-                parts.Add(part);
+                phone.Name = "Windows Phone";
             }
 
-            public void Show()
+            public void BuildScreen()
             {
-                Console.WriteLine("\nProduct Parts -------");
-                foreach (string part in parts)
-                    Console.WriteLine(part);
+                phone.Screen = ScreenType.ScreenType_TOUCH_CAPACITIVE;
+            }
+
+            public void BuildBattery()
+            {
+                phone.Battery = Battery.MAH_2000;
+            }
+
+            public void BuildOS()
+            {
+                phone.OS = OperatingSystem.WINDOWS_PHONE;
+            }
+
+            public MobilePhone Phone()
+            {
+                return phone;
             }
         }
 
+        class Manufacturer
+        {
+            public void Construct(IPhoneBuilder phoneBuilder)
+            {
+                phoneBuilder.BuildBattery();
+                phoneBuilder.BuildOS();
+                phoneBuilder.BuildScreen();
+            }
+        }
         static void Main(string[] args)
         {
-            // Create director and builders
+            Manufacturer newManufacturer = new Manufacturer();
 
-            Director director = new Director();
+            IPhoneBuilder phoneBuilder = new AndroidPhoneBuilder();
+            newManufacturer.Construct(phoneBuilder);
+            Console.WriteLine("A new Phone built:\n\n{0}", phoneBuilder.Phone().ToString());
 
-            IBuilder b1 = new ConcreteBuilder1();
-            IBuilder b2 = new ConcreteBuilder2();
-
-            // Construct two products
-
-            director.Construct(b1);
-            Product p1 = b1.Product();
-            p1.Show();
-
-            director.Construct(b2);
-            Product p2 = b2.Product();
-            p2.Show();
+            phoneBuilder = new WindowsPhoneBuilder();
+            newManufacturer.Construct(phoneBuilder);
+            Console.WriteLine("A new Phone built:\n\n{0}", phoneBuilder.Phone().ToString());
         }
     }
 }
