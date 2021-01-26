@@ -10,4 +10,3 @@ C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.DependencyInversion\obj\Deb
 C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.DependencyInversion\obj\Debug\netcoreapp3.1\SOLID.DependencyInversion.dll
 C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.DependencyInversion\obj\Debug\netcoreapp3.1\SOLID.DependencyInversion.pdb
 C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.DependencyInversion\obj\Debug\netcoreapp3.1\SOLID.DependencyInversion.genruntimeconfig.cache
-C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.DependencyInversion\obj\Debug\netcoreapp3.1\SOLID.DependencyInversion.csprojAssemblyReference.cache

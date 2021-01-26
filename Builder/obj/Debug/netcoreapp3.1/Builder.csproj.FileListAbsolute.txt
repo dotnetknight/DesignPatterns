@@ -1,0 +1,13 @@
+C:\Users\skott\Desktop\Projects\DesignPatterns\Builder\bin\Debug\netcoreapp3.1\Builder.exe
+C:\Users\skott\Desktop\Projects\DesignPatterns\Builder\bin\Debug\netcoreapp3.1\Builder.deps.json
+C:\Users\skott\Desktop\Projects\DesignPatterns\Builder\bin\Debug\netcoreapp3.1\Builder.runtimeconfig.json
+C:\Users\skott\Desktop\Projects\DesignPatterns\Builder\bin\Debug\netcoreapp3.1\Builder.runtimeconfig.dev.json
+C:\Users\skott\Desktop\Projects\DesignPatterns\Builder\bin\Debug\netcoreapp3.1\Builder.dll
+C:\Users\skott\Desktop\Projects\DesignPatterns\Builder\bin\Debug\netcoreapp3.1\Builder.pdb
+C:\Users\skott\Desktop\Projects\DesignPatterns\Builder\obj\Debug\netcoreapp3.1\Builder.AssemblyInfoInputs.cache
+C:\Users\skott\Desktop\Projects\DesignPatterns\Builder\obj\Debug\netcoreapp3.1\Builder.AssemblyInfo.cs
+C:\Users\skott\Desktop\Projects\DesignPatterns\Builder\obj\Debug\netcoreapp3.1\Builder.csproj.CoreCompileInputs.cache
+C:\Users\skott\Desktop\Projects\DesignPatterns\Builder\obj\Debug\netcoreapp3.1\Builder.dll
+C:\Users\skott\Desktop\Projects\DesignPatterns\Builder\obj\Debug\netcoreapp3.1\Builder.pdb
+C:\Users\skott\Desktop\Projects\DesignPatterns\Builder\obj\Debug\netcoreapp3.1\Builder.genruntimeconfig.cache
+C:\Users\skott\Desktop\Projects\DesignPatterns\Builder\obj\Debug\netcoreapp3.1\Builder.csprojAssemblyReference.cache

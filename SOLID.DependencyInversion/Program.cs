@@ -4,6 +4,8 @@ using System.Linq;
 
 namespace SOLID.DependencyInversion
 {
+//    High-level modules should not depend on low-level modules, both should depend on abstractions.
+//    Abstractions should not depend on details.Details should depend on abstractions.
     public enum Gender
     {
         Male,
@@ -24,7 +26,7 @@ namespace SOLID.DependencyInversion
 
     public interface IEmployeeSearchable
     {
-        IEnumerable<Employee> GetEmployeesByGenderAndPosition(Gender gender, Position position);
+        IEnumerable<Employee> EmployeesByGenderAndPosition(Gender gender, Position position);
     }
 
     public class EmployeeManager : IEmployeeSearchable
@@ -40,7 +42,7 @@ namespace SOLID.DependencyInversion
             _employees.Add(employee);
         }
 
-        public IEnumerable<Employee> GetEmployeesByGenderAndPosition(Gender gender, Position position)
+        public IEnumerable<Employee> EmployeesByGenderAndPosition(Gender gender, Position position)
             => _employees.Where(emp => emp.Gender == gender && emp.Position == position);
     }
 
@@ -53,7 +55,7 @@ namespace SOLID.DependencyInversion
             _emp = emp;
         }
         public int CountFemaleManagers() =>
-        _emp.GetEmployeesByGenderAndPosition(Gender.Female, Position.Manager).Count();
+        _emp.EmployeesByGenderAndPosition(Gender.Female, Position.Manager).Count();
     }
 
     class Program
@@ -61,9 +63,12 @@ namespace SOLID.DependencyInversion
         static void Main(string[] args)
         {
             var empManager = new EmployeeManager();
+
             empManager.AddEmployee(new Employee { Name = "Leen", Gender = Gender.Female, Position = Position.Manager });
             empManager.AddEmployee(new Employee { Name = "Mike", Gender = Gender.Male, Position = Position.Administrator });
+
             var stats = new EmployeeStatistics(empManager);
+
             Console.WriteLine($"Number of female managers in our company is: {stats.CountFemaleManagers()}");
         }
     }
