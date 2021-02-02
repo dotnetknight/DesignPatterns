@@ -11,7 +11,7 @@ namespace Factories.Factory
         Platinum
     }
 
-    public class Platinum : CreditCard
+    public class Platinum : ICreditCard
     {
         public CardTypes CardType()
         {
@@ -27,7 +27,7 @@ namespace Factories.Factory
         }
     }
 
-    public class Titanium : CreditCard
+    public class Titanium : ICreditCard
     {
         public CardTypes CardType()
         {
@@ -43,7 +43,7 @@ namespace Factories.Factory
         }
     }
 
-    class MoneyBack : CreditCard
+    class MoneyBack : ICreditCard
     {
         public CardTypes CardType()
         {
@@ -58,7 +58,7 @@ namespace Factories.Factory
             return 500;
         }
     }
-    public interface CreditCard
+    public interface ICreditCard
     {
         CardTypes CardType();
         int CreditLimit();
@@ -67,9 +67,9 @@ namespace Factories.Factory
 
     public class CreditCardFactory
     {
-        public static CreditCard CreditCard(CardTypes cardType)
+        public static ICreditCard CreditCard(CardTypes cardType)
         {
-            CreditCard cardDetails = null;
+            ICreditCard cardDetails = null;
 
             if (cardType == CardTypes.MoneyBack)
                 cardDetails = new MoneyBack();
@@ -88,7 +88,7 @@ namespace Factories.Factory
     {
         static void Main(string[] args)
         {
-            CreditCard cardDetails = CreditCardFactory.CreditCard(CardTypes.Platinum);
+            ICreditCard cardDetails = CreditCardFactory.CreditCard(CardTypes.Platinum);
 
             if (cardDetails != null)
             {
