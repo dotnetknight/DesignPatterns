@@ -10,3 +10,4 @@ C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.InterfaceSegregation\obj\De
 C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.InterfaceSegregation\obj\Debug\netcoreapp3.1\SOLID.InterfaceSegregation.dll
 C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.InterfaceSegregation\obj\Debug\netcoreapp3.1\SOLID.InterfaceSegregation.pdb
 C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.InterfaceSegregation\obj\Debug\netcoreapp3.1\SOLID.InterfaceSegregation.genruntimeconfig.cache
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.InterfaceSegregation\obj\Debug\netcoreapp3.1\SOLID.InterfaceSegregation.csprojAssemblyReference.cache
