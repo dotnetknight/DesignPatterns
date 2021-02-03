@@ -2,105 +2,49 @@
 
 namespace Factories.Factory
 {
-    //“A factory is an object which is used for creating other objects”. In technical terms, we can say that a factory is a class with a method. That method will create and return different types of objects based on the input parameter, it received.
+    //A factory is an object which is used for creating other objects”. In technical terms, we can say that a factory is a class with a method. That method will create and return different types of objects based on the input parameter, it received.
 
-    public enum CardTypes
+    public enum CoordinateSystem
     {
-        TitaniumEdge,
-        MoneyBack,
-        Platinum
+        Cartesian,
+        Polar
     }
 
-    public class Platinum : ICreditCard
+    public class Point
     {
-        public CardTypes CardType()
-        {
-            return CardTypes.Platinum;
-        }
-        public int CreditLimit()
-        {
-            return 35000;
-        }
-        public int AnnualCharge()
-        {
-            return 2000;
-        }
-    }
+        private double x, y;
 
-    public class Titanium : ICreditCard
-    {
-        public CardTypes CardType()
+        private Point(double x, double y)
         {
-            return CardTypes.TitaniumEdge;
+            this.x = x;
+            this.y = y;
         }
-        public int CreditLimit()
+
+        public override string ToString()
         {
-            return 25000;
+            return $"{nameof(x)}: {x}, {nameof(y)}: {y}";
         }
-        public int AnnualCharge()
+
+        public static class Factory
         {
-            return 1500;
-        }
-    }
+            public static Point NewCartesianPoint(double x, double y)
+            {
+                return new Point(x, y);
+            }
 
-    class MoneyBack : ICreditCard
-    {
-        public CardTypes CardType()
-        {
-            return CardTypes.MoneyBack;
-        }
-        public int CreditLimit()
-        {
-            return 15000;
-        }
-        public int AnnualCharge()
-        {
-            return 500;
-        }
-    }
-    public interface ICreditCard
-    {
-        CardTypes CardType();
-        int CreditLimit();
-        int AnnualCharge();
-    }
-
-    public class CreditCardFactory
-    {
-        public static ICreditCard CreditCard(CardTypes cardType)
-        {
-            ICreditCard cardDetails = null;
-
-            if (cardType == CardTypes.MoneyBack)
-                cardDetails = new MoneyBack();
-
-            if (cardType == CardTypes.TitaniumEdge)
-                cardDetails = new Titanium();
-
-            if (cardType == CardTypes.Platinum)
-                cardDetails = new Platinum();
-
-            return cardDetails;
+            public static Point NewPolarPoint(double rho, double theta)
+            {
+                return new Point(rho * Math.Cos(theta), rho * Math.Sin(theta));
+            }
         }
     }
 
     class Factory
     {
-        //static void Main(string[] args)
-        //{
-        //    ICreditCard cardDetails = CreditCardFactory.CreditCard(CardTypes.Platinum);
-
-        //    if (cardDetails != null)
-        //    {
-        //        Console.WriteLine("CardType : " + cardDetails.CardType());
-        //        Console.WriteLine("CreditLimit : " + cardDetails.CreditLimit());
-        //        Console.WriteLine("AnnualCharge :" + cardDetails.AnnualCharge());
-        //    }
-
-        //    else
-        //        Console.Write("Invalid Card Type");
-
-        //    Console.ReadLine();
-        //}
+        static void Main(string[] args)
+        {
+            var point = Point.Factory.NewPolarPoint(10.2, 5);
+            Console.WriteLine(point);
+        }
     }
 }
