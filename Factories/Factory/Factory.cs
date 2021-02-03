@@ -86,21 +86,21 @@ namespace Factories.Factory
 
     class Factory
     {
-        static void Main(string[] args)
-        {
-            ICreditCard cardDetails = CreditCardFactory.CreditCard(CardTypes.Platinum);
+        //static void Main(string[] args)
+        //{
+        //    ICreditCard cardDetails = CreditCardFactory.CreditCard(CardTypes.Platinum);
 
-            if (cardDetails != null)
-            {
-                Console.WriteLine("CardType : " + cardDetails.CardType());
-                Console.WriteLine("CreditLimit : " + cardDetails.CreditLimit());
-                Console.WriteLine("AnnualCharge :" + cardDetails.AnnualCharge());
-            }
+        //    if (cardDetails != null)
+        //    {
+        //        Console.WriteLine("CardType : " + cardDetails.CardType());
+        //        Console.WriteLine("CreditLimit : " + cardDetails.CreditLimit());
+        //        Console.WriteLine("AnnualCharge :" + cardDetails.AnnualCharge());
+        //    }
 
-            else
-                Console.Write("Invalid Card Type");
+        //    else
+        //        Console.Write("Invalid Card Type");
 
-            Console.ReadLine();
-        }
+        //    Console.ReadLine();
+        //}
     }
 }

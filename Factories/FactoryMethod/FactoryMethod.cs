@@ -1,103 +1,37 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Factories.FactoryMethod
 {
-    //Define an interface for creating an object, but let the subclasses decide which class to instantiate. The Factory method lets a class defer instantiation it uses to subclasses
-
-    public enum CardTypes
+    //Factory Method defines a method, which should be used for creating objects instead of direct constructor call.
+    public enum CoordinateSystem
     {
-        TitaniumEdge,
-        MoneyBack,
-        Platinum
+        Cartesian,
+        Polar
     }
 
-    public class Platinum : ICreditCard
+    public class Point
     {
-        public CardTypes CardType()
-        {
-            return CardTypes.Platinum;
-        }
-        public int CreditLimit()
-        {
-            return 35000;
-        }
-        public int AnnualCharge()
-        {
-            return 2000;
-        }
-    }
+        private double x, y;
 
-    public class Titanium : ICreditCard
-    {
-        public CardTypes CardType()
+        private Point(double x, double y)
         {
-            return CardTypes.TitaniumEdge;
+            this.x = x;
+            this.y = y;
         }
-        public int CreditLimit()
-        {
-            return 25000;
-        }
-        public int AnnualCharge()
-        {
-            return 1500;
-        }
-    }
 
-    class MoneyBack : ICreditCard
-    {
-        public CardTypes CardType()
+        public static Point NewCartesianPoint(double x, double y)
         {
-            return CardTypes.MoneyBack;
+            return new Point(x, y);
         }
-        public int CreditLimit()
-        {
-            return 15000;
-        }
-        public int AnnualCharge()
-        {
-            return 500;
-        }
-    }
-    public interface ICreditCard
-    {
-        CardTypes CardType();
-        int CreditLimit();
-        int AnnualCharge();
-    }
 
-    public abstract class CreditCardFactory
-    {
-        protected abstract ICreditCard MakeProduct();
-        public ICreditCard CreateProduct()
+        public static Point NewPolarPoint(double rho, double theta)
         {
-            return MakeProduct();
+            return new Point(rho * Math.Cos(theta), rho * Math.Sin(theta));
         }
-    }
 
-    public class MoneyBackFactory : CreditCardFactory
-    {
-        protected override ICreditCard MakeProduct()
+        public override string ToString()
         {
-            ICreditCard product = new MoneyBack();
-            return product;
-        }
-    }
-    public class PlatinumFactory : CreditCardFactory
-    {
-        protected override ICreditCard MakeProduct()
-        {
-            ICreditCard product = new Platinum();
-            return product;
-        }
-    }
-    public class TitaniumFactory : CreditCardFactory
-    {
-        protected override ICreditCard MakeProduct()
-        {
-            ICreditCard product = new Titanium();
-            return product;
+            return $"{nameof(x)}: {x}, {nameof(y)}: {y}";
         }
     }
 
@@ -105,33 +39,8 @@ namespace Factories.FactoryMethod
     {
         static void Main(string[] args)
         {
-            ICreditCard creditCard = new PlatinumFactory().CreateProduct();
-
-            if (creditCard != null)
-            {
-                Console.WriteLine("Card Type : " + creditCard.CardType());
-                Console.WriteLine("Credit Limit : " + creditCard.CreditLimit());
-                Console.WriteLine("Annual Charge :" + creditCard.AnnualCharge());
-            }
-
-            else
-                Console.Write("Invalid Card Type");
-
-            Console.WriteLine("--------------");
-
-            creditCard = new MoneyBackFactory().CreateProduct();
-
-            if (creditCard != null)
-            {
-                Console.WriteLine("Card Type : " + creditCard.CardType());
-                Console.WriteLine("Credit Limit : " + creditCard.CreditLimit());
-                Console.WriteLine("Annual Charge :" + creditCard.AnnualCharge());
-            }
-
-            else
-                Console.Write("Invalid Card Type");
-
-            Console.ReadLine();
+            var point = Point.NewPolarPoint(2, 3);
+            Console.WriteLine(point);
         }
     }
 }
