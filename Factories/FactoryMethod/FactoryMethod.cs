@@ -13,7 +13,7 @@ namespace Factories.FactoryMethod
         Platinum
     }
 
-    public class Platinum : CreditCard
+    public class Platinum : ICreditCard
     {
         public CardTypes CardType()
         {
@@ -29,7 +29,7 @@ namespace Factories.FactoryMethod
         }
     }
 
-    public class Titanium : CreditCard
+    public class Titanium : ICreditCard
     {
         public CardTypes CardType()
         {
@@ -45,7 +45,7 @@ namespace Factories.FactoryMethod
         }
     }
 
-    class MoneyBack : CreditCard
+    class MoneyBack : ICreditCard
     {
         public CardTypes CardType()
         {
@@ -60,7 +60,7 @@ namespace Factories.FactoryMethod
             return 500;
         }
     }
-    public interface CreditCard
+    public interface ICreditCard
     {
         CardTypes CardType();
         int CreditLimit();
@@ -69,8 +69,8 @@ namespace Factories.FactoryMethod
 
     public abstract class CreditCardFactory
     {
-        protected abstract CreditCard MakeProduct();
-        public CreditCard CreateProduct()
+        protected abstract ICreditCard MakeProduct();
+        public ICreditCard CreateProduct()
         {
             return MakeProduct();
         }
@@ -78,25 +78,25 @@ namespace Factories.FactoryMethod
 
     public class MoneyBackFactory : CreditCardFactory
     {
-        protected override CreditCard MakeProduct()
+        protected override ICreditCard MakeProduct()
         {
-            CreditCard product = new MoneyBack();
+            ICreditCard product = new MoneyBack();
             return product;
         }
     }
     public class PlatinumFactory : CreditCardFactory
     {
-        protected override CreditCard MakeProduct()
+        protected override ICreditCard MakeProduct()
         {
-            CreditCard product = new Platinum();
+            ICreditCard product = new Platinum();
             return product;
         }
     }
     public class TitaniumFactory : CreditCardFactory
     {
-        protected override CreditCard MakeProduct()
+        protected override ICreditCard MakeProduct()
         {
-            CreditCard product = new Titanium();
+            ICreditCard product = new Titanium();
             return product;
         }
     }
@@ -105,7 +105,7 @@ namespace Factories.FactoryMethod
     {
         static void Main(string[] args)
         {
-            CreditCard creditCard = new PlatinumFactory().CreateProduct();
+            ICreditCard creditCard = new PlatinumFactory().CreateProduct();
 
             if (creditCard != null)
             {
