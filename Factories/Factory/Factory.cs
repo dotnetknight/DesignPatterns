@@ -41,10 +41,10 @@ namespace Factories.Factory
 
     class Factory
     {
-        static void Main(string[] args)
-        {
-            var point = Point.Factory.NewPolarPoint(10.2, 5);
-            Console.WriteLine(point);
-        }
+        //static void Main(string[] args)
+        //{
+        //    var point = Point.Factory.NewPolarPoint(10.2, 5);
+        //    Console.WriteLine(point);
+        //}
     }
 }

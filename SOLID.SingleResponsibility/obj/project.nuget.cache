@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "sLQDzqQvdgsxyEINd9KLl/OyQREJbyZS5YeNjx4ymnCoFs6IPGsfYmIRbEWggj6l1Ur6azR2nJErL/3elqgEAQ==",
+  "dgSpecHash": "QWKlwa+t2zXUqL3JBbJFqqRPtbrdTMsEzaO17RXjKYGYKaB+JzCm7wza7FGoC4Uo8JKyHAVpy5xRpI9blG3XeQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\skott\\Desktop\\Projects\\DesignPatterns\\SOLID.SingleResponsibility\\SOLID.SingleResponsibility.csproj",
   "expectedPackageFiles": [],

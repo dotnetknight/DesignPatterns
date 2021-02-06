@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "NP3mXeEsWqdyAU2jdyP+Cc3WSsiyRMwDsr0z7JzfttfWvaOVeCTBvJ05sNICJI5WVwVzxjshyiqcuE8Fo0mveA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\skott\\Desktop\\Projects\\DesignPatterns\\FactoryPattern\\FactoryPattern.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\skott\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\skott\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

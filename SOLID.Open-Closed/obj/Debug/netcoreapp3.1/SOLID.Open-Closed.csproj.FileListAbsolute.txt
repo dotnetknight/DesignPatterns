@@ -10,3 +10,4 @@ C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.Open-Closed\obj\Debug\netco
 C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.Open-Closed\obj\Debug\netcoreapp3.1\SOLID.Open-Closed.pdb
 C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.Open-Closed\obj\Debug\netcoreapp3.1\SOLID.Open-Closed.csproj.CoreCompileInputs.cache
 C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.Open-Closed\obj\Debug\netcoreapp3.1\SOLID.Open-Closed.genruntimeconfig.cache
+C:\Users\skott\Desktop\Projects\DesignPatterns\SOLID.Open-Closed\obj\Debug\netcoreapp3.1\SOLID.Open-Closed.csprojAssemblyReference.cache

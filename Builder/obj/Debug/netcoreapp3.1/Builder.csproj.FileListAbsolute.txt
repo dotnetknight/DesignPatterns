@@ -10,4 +10,3 @@ C:\Users\skott\Desktop\Projects\DesignPatterns\Builder\obj\Debug\netcoreapp3.1\B
 C:\Users\skott\Desktop\Projects\DesignPatterns\Builder\obj\Debug\netcoreapp3.1\Builder.dll
 C:\Users\skott\Desktop\Projects\DesignPatterns\Builder\obj\Debug\netcoreapp3.1\Builder.pdb
 C:\Users\skott\Desktop\Projects\DesignPatterns\Builder\obj\Debug\netcoreapp3.1\Builder.genruntimeconfig.cache
-C:\Users\skott\Desktop\Projects\DesignPatterns\Builder\obj\Debug\netcoreapp3.1\Builder.csprojAssemblyReference.cache

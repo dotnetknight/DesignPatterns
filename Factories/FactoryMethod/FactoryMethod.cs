@@ -37,10 +37,10 @@ namespace Factories.FactoryMethod
 
     class FactoryMethod
     {
-        static void Main(string[] args)
-        {
-            var point = Point.NewPolarPoint(2, 3);
-            Console.WriteLine(point);
-        }
+        //static void Main(string[] args)
+        //{
+        //    var point = Point.NewPolarPoint(2, 3);
+        //    Console.WriteLine(point);
+        //}
     }
 }

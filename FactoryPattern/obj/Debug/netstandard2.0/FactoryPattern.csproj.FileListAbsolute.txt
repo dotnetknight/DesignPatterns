@@ -1,0 +1,8 @@
+C:\Users\skott\Desktop\Projects\DesignPatterns\FactoryPattern\bin\Debug\netstandard2.0\FactoryPattern.deps.json
+C:\Users\skott\Desktop\Projects\DesignPatterns\FactoryPattern\bin\Debug\netstandard2.0\FactoryPattern.dll
+C:\Users\skott\Desktop\Projects\DesignPatterns\FactoryPattern\bin\Debug\netstandard2.0\FactoryPattern.pdb
+C:\Users\skott\Desktop\Projects\DesignPatterns\FactoryPattern\obj\Debug\netstandard2.0\FactoryPattern.AssemblyInfoInputs.cache
+C:\Users\skott\Desktop\Projects\DesignPatterns\FactoryPattern\obj\Debug\netstandard2.0\FactoryPattern.AssemblyInfo.cs
+C:\Users\skott\Desktop\Projects\DesignPatterns\FactoryPattern\obj\Debug\netstandard2.0\FactoryPattern.csproj.CoreCompileInputs.cache
+C:\Users\skott\Desktop\Projects\DesignPatterns\FactoryPattern\obj\Debug\netstandard2.0\FactoryPattern.dll
+C:\Users\skott\Desktop\Projects\DesignPatterns\FactoryPattern\obj\Debug\netstandard2.0\FactoryPattern.pdb
