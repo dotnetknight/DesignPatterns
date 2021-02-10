@@ -111,3 +111,111 @@ namespace Factories.AbstractFactory
         }
     }
 }
+
+
+//Version 2
+
+/*
+ using System;
+using System.Collections.Generic;
+
+namespace Factories.AbstractFactory
+{
+    public interface IBottle
+    {
+        public void Interact(IWater water);
+    }
+
+    public class CocaColaBottle : IBottle
+    {
+        public string Name { get; set; }
+        public string Color { get; set; }
+
+        public void Interact(IWater water)
+        {
+            Console.WriteLine(this + " interacts with " + water);
+        }
+    }
+
+    public class PepsiBottle : IBottle
+    {
+        public string Name { get; set; }
+        public string Color { get; set; }
+
+        public void Interact(IWater water)
+        {
+            Console.WriteLine(this + " interacts with " + water);
+        }
+    }
+
+    public interface IWater
+    {
+
+    }
+
+    public class CocaColaWater : IWater
+    {
+
+    }
+
+    public class PepsiWater : IWater
+    {
+
+    }
+
+    public interface IDrinkFactory
+    {
+        public IWater CreateWater();
+        public IBottle CreateBottle();
+    }
+
+    public class CocaColaFactory : IDrinkFactory
+    {
+        public IBottle CreateBottle()
+        {
+            return new CocaColaBottle()
+            {
+                Color = "Red",
+                Name = "Coca-Cola"
+            };
+        }
+
+        public IWater CreateWater()
+        {
+            return new CocaColaWater();
+        }
+    }
+
+    public class PepsiFactory : IDrinkFactory
+    {
+        public IBottle CreateBottle()
+        {
+            return new PepsiBottle()
+            {
+                Color = "Blue",
+                Name = "Pepsi"
+            };
+        }
+
+        public IWater CreateWater()
+        {
+            return new PepsiWater();
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var pepsiBottle = new PepsiFactory().CreateBottle();
+            var pepsiWater = new PepsiFactory().CreateWater();
+
+            var cocaColaBottle = new CocaColaFactory().CreateBottle();
+            var cocaColaWater = new CocaColaFactory().CreateWater();
+
+            cocaColaBottle.Interact(cocaColaWater);
+            pepsiBottle.Interact(pepsiWater);
+        }
+    }
+}
+ */
