@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HXsyowqFeBVWld2fLhPki5FG1ZEuzAwghSc2wAU3JtyIMx1di+IKiKoSWodYX0ReyAGD1giVBKP5xtoz3ar2gQ==",
+  "dgSpecHash": "lheBW5oHiR7/4Vn20JbBJulw9R6XyiAqBqi3eQJZgpAQcZrLCDslY8hvV69PsNkJVAb+SVKHmMrkBEF+ceA1lw==",
   "success": true,
   "projectFilePath": "C:\\Users\\skott\\Desktop\\Projects\\DesignPatterns\\SOLID.InterfaceSegregation\\SOLID.InterfaceSegregation.csproj",
   "expectedPackageFiles": [],
