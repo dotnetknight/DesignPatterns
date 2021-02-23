@@ -16,7 +16,8 @@ namespace Prototype
         {
             public string Name { get; set; }
             public string Department { get; set; }
-            public Employee GetClone()
+
+            public Employee Clone()
             {
                 return (Employee)this.MemberwiseClone();
             }
@@ -24,16 +25,21 @@ namespace Prototype
 
         static void Main(string[] args)
         {
-            Employee emp1 = new Employee();
-            emp1.Name = "Bruce";
-            emp1.Department = "IT";
-            Employee emp2 = emp1.GetClone();
+            Employee emp1 = new Employee
+            {
+                Name = "Bruce",
+                Department = "IT"
+            };
+
+            Employee emp2 = emp1.Clone();
             emp2.Name = "Clark";
 
             Console.WriteLine("Emplpyee 1: ");
             Console.WriteLine("Name: " + emp1.Name + ", Department: " + emp1.Department);
+
             Console.WriteLine("Emplpyee 2: ");
             Console.WriteLine("Name: " + emp2.Name + ", Department: " + emp2.Department);
+
             Console.Read();
         }
     }
