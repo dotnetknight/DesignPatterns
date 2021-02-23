@@ -1,0 +1,12 @@
+C:\Users\skott\Desktop\Projects\DesignPatterns\Prototype\bin\Debug\netcoreapp3.1\Prototype.exe
+C:\Users\skott\Desktop\Projects\DesignPatterns\Prototype\bin\Debug\netcoreapp3.1\Prototype.deps.json
+C:\Users\skott\Desktop\Projects\DesignPatterns\Prototype\bin\Debug\netcoreapp3.1\Prototype.runtimeconfig.json
+C:\Users\skott\Desktop\Projects\DesignPatterns\Prototype\bin\Debug\netcoreapp3.1\Prototype.runtimeconfig.dev.json
+C:\Users\skott\Desktop\Projects\DesignPatterns\Prototype\bin\Debug\netcoreapp3.1\Prototype.dll
+C:\Users\skott\Desktop\Projects\DesignPatterns\Prototype\bin\Debug\netcoreapp3.1\Prototype.pdb
+C:\Users\skott\Desktop\Projects\DesignPatterns\Prototype\obj\Debug\netcoreapp3.1\Prototype.AssemblyInfoInputs.cache
+C:\Users\skott\Desktop\Projects\DesignPatterns\Prototype\obj\Debug\netcoreapp3.1\Prototype.AssemblyInfo.cs
+C:\Users\skott\Desktop\Projects\DesignPatterns\Prototype\obj\Debug\netcoreapp3.1\Prototype.csproj.CoreCompileInputs.cache
+C:\Users\skott\Desktop\Projects\DesignPatterns\Prototype\obj\Debug\netcoreapp3.1\Prototype.dll
+C:\Users\skott\Desktop\Projects\DesignPatterns\Prototype\obj\Debug\netcoreapp3.1\Prototype.pdb
+C:\Users\skott\Desktop\Projects\DesignPatterns\Prototype\obj\Debug\netcoreapp3.1\Prototype.genruntimeconfig.cache
