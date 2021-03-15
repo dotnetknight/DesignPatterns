@@ -3,6 +3,17 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+### .NET Standard specific ###
+
+src/platforms/netcoreapp/
+
+### VisualStudio ###
+
+# Tool Runtime Dir
+/[Tt]ools/
+.dotnet/
+.packages/
+
 # User-specific files
 *.rsuser
 *.suo
