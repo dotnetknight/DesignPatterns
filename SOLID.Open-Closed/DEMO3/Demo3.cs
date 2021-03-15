@@ -49,7 +49,7 @@ namespace SOLID.Open_Closed.DEMO3
 
         public class ColorSpecification : ISpecification<Product>
         {
-            private Color color;
+            private readonly Color color;
 
             public ColorSpecification(Color color)
             {
@@ -64,7 +64,7 @@ namespace SOLID.Open_Closed.DEMO3
 
         public class SizeSpecification : ISpecification<Product>
         {
-            private Size size;
+            private readonly Size size;
 
             public SizeSpecification(Size size)
             {
@@ -79,7 +79,7 @@ namespace SOLID.Open_Closed.DEMO3
 
         public class CarColorSpecification : ISpecification<Car>
         {
-            private Color color;
+            private readonly Color color;
             public CarColorSpecification(Color color)
             {
                 this.color = color;
@@ -92,7 +92,8 @@ namespace SOLID.Open_Closed.DEMO3
 
         public class GreenAndSmallSpecification : ISpecification<Product>
         {
-            private ISpecification<Product> greenSpecification, smallSpecification;
+            private readonly ISpecification<Product> greenSpecification;
+            private readonly ISpecification<Product> smallSpecification;
 
             public GreenAndSmallSpecification(ISpecification<Product> greenSpecification, ISpecification<Product> smallSpecification)
             {

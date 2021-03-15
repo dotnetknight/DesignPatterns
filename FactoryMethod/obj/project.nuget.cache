@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "r3Htk5m12W0oMipF/mBWUz4f5/xvTXfl6zzXTnuj/GgPUtni5s+JqUtFTQCvCHSt/GnkIIDeEvpNYsDmG014FQ==",
+  "dgSpecHash": "cMWo6uRyx1w8f9BpKnQaNRKC2Fn2l1NCPsAG7AWu4HWbNg9asnld/OJ2EDP9AhzRvvLi24UYevLl9Pl7zzPidA==",
   "success": true,
   "projectFilePath": "C:\\Users\\skott\\Desktop\\Projects\\DesignPatterns\\FactoryMethod\\FactoryMethod.csproj",
   "expectedPackageFiles": [
