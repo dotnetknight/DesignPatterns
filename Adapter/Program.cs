@@ -51,24 +51,16 @@ namespace Adapter
 
             for (int i = 0; i < employeesArray.GetLength(0); i++)
             {
-                for (int j = 0; j < employeesArray.GetLength(1); j++)
+                for (int j = 1; j < employeesArray.GetLength(1); j++)
                 {
-                    if (j == 0)
-                    {
-                        Id = employeesArray[i, j];
-                    }
-                    else if (j == 1)
+                    if (j == 1)
                     {
                         Name = employeesArray[i, j];
                     }
-                    else if (j == 1)
-                    {
-                        Designation = employeesArray[i, j];
-                    }
-                    else
-                    {
-                        Salary = employeesArray[i, j];
-                    }
+
+                    Id = employeesArray[i, j];
+                    Designation = employeesArray[i, j];
+                    Salary = employeesArray[i, j];
                 }
 
                 listEmployee.Add(new Employee
